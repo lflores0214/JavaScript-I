@@ -15,10 +15,11 @@ myFunction();
 // };
 // anotherFunction("Example");
 
-let anotherFunction = (parameter) => {
+const anotherFunction = (parameter) => {
     return parameter;
 };
-anotherFunction("example");
+
+console.log(anotherFunction("example"));
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
@@ -27,7 +28,7 @@ anotherFunction("example");
 let add = (num1, num2) => {
     return num1 + num2;
 };
-add(2,4);
+console.log(add(2,4));
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
