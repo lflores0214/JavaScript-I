@@ -33,8 +33,10 @@ console.log(add(2,4));
 //   return param1 - param2;
 // };
 // subtract(1,2);
-
-
+let subtract = (num1, num2) => {
+    return num1 - num2;
+}
+console.log(subtract(7,3))
 // Stretch
 
 // exampleArray = [1,2,3,4];
@@ -42,3 +44,9 @@ console.log(add(2,4));
 //   return num * 3;
 // });
 // console.log(triple);
+exampleArray = [1,2,3,4];
+
+const triple = exampleArray.map((num) => {
+    return num * 3;
+});
+console.log(triple)
